@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Princes Angelie T. Subido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        .line {
+            border-top: 1px solid #000;
+            margin: 20px 0;
+        }
+        .header {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            position: relative;
+        }
+        .header img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin: 0;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .objective p {
+            margin: 0;
+            text-align: justify;
+        }
+        .personal-info, .skills-education-contact {
+            display: flex;
+            justify-content: space-between;
+        }
+        .personal-info div, .skills-education-contact div {
+            width: 40%;
+        }
+        .personal-info ul, .skills ul, .education ul, .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+        .personal-info ul li, .skills ul li, .education ul li, .contact ul li {
+            margin-bottom: 8px;
+        }
+        .skills-education-contact .divider,
+        .personal-info .divider {
+            width: 2px;
+            background-color: #000;
+            margin: 0 20px;
+        }
+        .contact ul li img {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        /* Centered Titles */
+        .centered-title {
+            display: flex;
+            align-items: center;
+        }
+        .title {
+            margin: 0;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header Section with Image and Name -->
+    <div class="header">
+        <img src="/Assets/profile.jpg" alt="Profile Picture">
+        <h1>Princes Angelie T. Subido</h1>
+    </div>
+
+    <!-- Line Break -->
+    <div class="line"></div>
+
+    <!-- Objective Section -->
+    <div class="objective">
+        <div class="section-title">Objectives:</div>
+        <p>A committed student with multitasking skills, emotional intelligence, and prioritization, excels in academics and personal development. They thrive in changing environments, handle interpersonal connections with empathy, prioritize deadlines, and organize work effectively. Driven and skilled, they are eager to help others and pursue greatness.</p>
+    </div>
+
+    <!-- Line Break -->
+    <div class="line"></div>
+
+    <!-- Personal Information and Skills Section with Divider -->
+    <div class="personal-info">
+        <div>
+            <div class="centered-title">
+                <h3 class="section-title title">Personal Information:</h3>
+            </div>
+            <ul>
+                <li><strong>Date of Birth:</strong> October 25, 2003</li>
+                <li><strong>Age:</strong> 20 years old</li>
+                <li><strong>Gender:</strong> Female</li>
+                <li><strong>Civil Status:</strong> Single</li>
+                <li><strong>Religion:</strong> Roman Catholic</li>
+                <li><strong>Height:</strong> 5'2 ft</li>
+                <li><strong>Weight:</strong> 55kg</li>
+                <li><strong>Language:</strong> Filipino, English</li>
+            </ul>
+        </div>
+        <div class="divider"></div> <!-- Divider Line -->
+        <div>
+            <div class="centered-title">
+                <h2 class="section-title title">Skills:</h2>
+            </div>
+            <ul>
+                <li>Computer Literate</li>
+                <li>Time Management</li>
+                <li>Self Motivation</li>
+                <li>Willingness to Learn New Things</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Line Break -->
+    <div class="line"></div>
+
+    <!-- Education and Contact Information Section with Divider -->
+    <div class="skills-education-contact">
+        <div class="education">
+            <div class="centered-title">
+                <h2 class="section-title title">Education:</h2>
+            </div>
+            <ul>
+                <li><strong>Elementary:</strong> 2015-2016</li>
+                <li>Betty Go Belmonte Elementary School</li>
+                <li><strong>High School:</strong> 2019-2020</li>
+                <li>Carlos L. Albert High School</li>
+                <li><strong>Senior High School:</strong> 2020-2022</li>
+                <li>Electron College of Technical Education</li>
+                <li><strong>College:</strong> 2022 - Present</li>
+                <li>Technological University of the Philippines-Manila</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Contact Information Section -->
+        <div class="contact">
+            <div class="centered-title">
+                <h2 class="section-title title">Contact:</h2>
+            </div>
+            <ul>
+                <li><img src="/Assets/phone.png" alt="Phone Icon">09183744732</li>
+                <li><img src="/Assets/email.png" alt="Email Icon">princesangelie.subido@tup.edu.ph</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
